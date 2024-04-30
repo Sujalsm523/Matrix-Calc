@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '~raisincss/raisin.css';
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #EEEEEE;
+  min-height: 100vh;
+}
+
+
+.content {
+  min-height: 100vh;
+}
+
+.footer {
+  width: 100%;
+  padding: 15px;
+  background-color: #CFD8DC;
+  color: #546E7A;
+}
